@@ -50,18 +50,18 @@
 
   /* Start components */
 
-  .main-heahing {
+  .main-heading {
     text-align: center;
   }
   
-  .main-heahing  h2{
+  .main-heading  h2{
     font-weight: normal;
     font-size: 40px;
     position: relative;
     margin-bottom: 70px;
     text-transform:uppercase ;
   }
-  .main-heahing h2::before {
+  .main-heading h2::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -72,7 +72,7 @@
     width: 120px;
   }
   
-  .main-heahing h2::after {
+  .main-heading h2::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -85,7 +85,7 @@
     background-color: white;
   }
   
-  .main-heahing p {
+  .main-heading p {
     width: 550px;
     margin: 0 auto 100px;
     max-width: 100%;
@@ -408,13 +408,11 @@ position: relative;
  padding: 15px 0;
 }
 .design .text ul li::before {
- font-family: 'font Awsome 5 free';
+ font-family: 'Font Awesome 5 Free';
  content: '\f390';
  font-weight: 900;
  margin-right: 20px;
- position: absolute;
+ position: relative;
  top: 1px;
 }
-
-
 /* End Design */
